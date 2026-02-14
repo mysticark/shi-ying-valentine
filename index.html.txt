@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For Shi Ying 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Background Music -->
+<audio id="bgMusic" loop>
+  <source src="https://cdn.pixabay.com/audio/2022/10/30/audio_0a5c1c7c1b.mp3" type="audio/mpeg">
+</audio>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- Rose Petals -->
+<div class="petals"></div>
+
+<div class="container" id="mainPage">
+
+    <h1 class="name-animate">💖 My Dearest Shi Ying 💖</h1>
+
+    <p class="love-text" id="typingText"></p>
+
+    <h2 class="question-text">💘 Would you be my Valentine? 💘</h2>
+
+    <img src="couple.jpg" class="couple-photo">
+
+    <div class="buttons">
+        <button id="yesBtn">Yes 💖</button>
+        <button id="noBtn">No 🙈</button>
+    </div>
+
+    <div id="celebrate" class="hidden">
+        <h2>YAYYYYY SHI YING!!! 🎉💞🥰</h2>
+        <p>You just made Vincent the happiest man alive 😭❤️</p>
+        <img src="https://media.giphy.com/media/5GoVLqeAOo6PK/giphy.gif" class="gif">
+    </div>
+
+</div>
+
+<!-- LOVE PAGE -->
+<div class="container hidden" id="lovePage">
+
+    <h1>Our Love Story 💑🌅</h1>
+
+    <p class="cute-text">
+        Bali. Sunsets. Beaches. Us. Forever. 💖🇮🇩<br><br>
+        Holding your hand while watching the sunset 🌅  
+        is everything I’ve ever dreamed of 💕<br><br>
+        This trip isn’t just a holiday…  
+        It’s another beautiful memory we’re creating together 💫💞
+    </p>
+
+    <div class="countdown-box">
+        <h2>⏳ Countdown to Bali 🇮🇩💖</h2>
+        <div id="countdown"></div>
+    </div>
+
+    <div class="map-container">
+        <h2>Our Love Destination 🗺️💘</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Bali_location_map.png" class="bali-map">
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="beach-photo">
+
+    <h2 class="signature">Forever yours,<br>❤️ Vincent ❤️</h2>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

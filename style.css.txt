@@ -1,0 +1,140 @@
+body {
+    background: linear-gradient(to bottom, #ffd6e8, #fff0f6);
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    padding: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.name-animate {
+    animation: glow 2s infinite alternate;
+    color: #ff4d88;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #ff99cc; }
+    to { text-shadow: 0 0 25px #ff4d88; }
+}
+
+.love-text {
+    font-size: 20px;
+    color: #ff6699;
+    min-height: 140px;
+}
+
+.question-text {
+    color: #ff4d88;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.couple-photo {
+    width: 300px;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 0 0 20px rgba(255,0,120,0.3);
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#yesBtn {
+    background-color: #ff4d88;
+    color: white;
+}
+
+#noBtn {
+    background-color: #cccccc;
+}
+
+.hidden {
+    display: none;
+}
+
+.gif {
+    width: 200px;
+    margin-top: 20px;
+}
+
+.beach-photo {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.signature {
+    margin-top: 30px;
+    color: #ff4d88;
+}
+
+/* Floating Hearts */
+.hearts::before {
+    content: "💖 💕 💘 💞 💓 💗";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    animation: float 10s linear infinite;
+}
+
+@keyframes float {
+    from { transform: translateY(100vh); }
+    to { transform: translateY(-100vh); }
+}
+
+/* Rose petals */
+.petals::before {
+    content: "🌹 🌸 🌺 🌷";
+    position: fixed;
+    width: 100%;
+    top: 0;
+    animation: fall 12s linear infinite;
+}
+
+@keyframes fall {
+    from { transform: translateY(-10vh); }
+    to { transform: translateY(110vh); }
+}
+
+.countdown-box {
+    background: #ffe6f0;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+}
+
+#countdown {
+    font-size: 22px;
+    color: #ff4d88;
+}
+
+.map-container {
+    margin-top: 20px;
+}
+
+.bali-map {
+    width: 200px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+    100% { transform: scale(1); }
+}
